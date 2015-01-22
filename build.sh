@@ -62,7 +62,7 @@ tar xf dl/pidgin-$PIDGIN_VERSION.tar.gz
 ln -s pidgin-$PIDGIN_VERSION pidgin
 cd pidgin-$PIDGIN_VERSION
 cp ../local.mak .
-make -f Makefile.mingw -j8
+make -f Makefile.mingw 
 
 
 
