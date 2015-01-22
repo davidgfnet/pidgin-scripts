@@ -59,6 +59,7 @@ find win32-dev/nss-3.17.1-nspr-4.10.7 | grep "\.lib" | xargs rm
 # Pidgin
 rm -rf pidgin-$PIDGIN_VERSION
 tar xf dl/pidgin-$PIDGIN_VERSION.tar.gz
+ln -s pidgin-$PIDGIN_VERSION pidgin
 cd pidgin-$PIDGIN_VERSION
 cp ../local.mak .
 make -f Makefile.mingw -j8
